@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 67px;
+    width: 1440px;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 16px;
+    width: 250px;
+    gap: 24px;
+    font-size: 13px;
+}
+
+.search-bar {
+    width: 200px;
+    height: 33px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 42px;
+    width: 362px;
+}
