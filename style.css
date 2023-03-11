@@ -26,17 +26,33 @@ header {
     font-size: 13px;
 }
 
+
 .search-bar {
+    position: relative;
     width: 200px;
-    height: 33px;
+    border-radius: 5px;
+    border-color: white;
+}
+.search {
+    height: 100%;
+    width: 100%;
+    padding-left: 26px;
+    border-radius: 5px;
+    border: 1px solid rgba(70, 151, 119, 0.6);
+}
+.search::placeholder {
+    color: #b3b3b3;
+}
+.search-icon{
+    position: absolute;
+    width: 15px;
+    top: 10px;
+    left: 10px;
 }
 
 .header-right {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 42px;
-    width: 362px;
+    margin-left: -103px;
 }
 
 .picHead {
@@ -74,4 +90,19 @@ header {
 
 .control-product-left {
     margin-top: 65px;
+}
+.products {
+    display: flex;
+    margin-top: 63px;
+    width: 1440px;
+    justify-content: space-between;
+}
+.products-left {
+    width: 1160px;
+    justify-content: space-between;
+}
+.products-control {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
