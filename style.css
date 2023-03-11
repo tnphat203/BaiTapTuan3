@@ -25,7 +25,10 @@ header {
     gap: 24px;
     font-size: 13px;
 }
-
+.header-right {
+    display: flex;
+    margin-left: -103px;
+}
 
 .search-bar {
     position: relative;
@@ -38,7 +41,7 @@ header {
     width: 100%;
     padding-left: 26px;
     border-radius: 5px;
-    border: 1px solid rgba(70, 151, 119, 0.6);
+    border: 1px solid rgb(191, 188, 188)
 }
 .search::placeholder {
     color: #b3b3b3;
@@ -50,10 +53,6 @@ header {
     left: 10px;
 }
 
-.header-right {
-    display: flex;
-    margin-left: -103px;
-}
 
 .picHead {
     display: flex;
@@ -82,27 +81,44 @@ header {
     line-height: 35px;
 }
 
-.control-product {
-    display: flex;
-    height: 166px;
-    width: 1440px;
-}
-
-.control-product-left {
-    margin-top: 65px;
-}
 .products {
     display: flex;
-    margin-top: 63px;
     width: 1440px;
-    justify-content: space-between;
+    margin-top: 63px;
+    justify-content: center;
 }
 .products-left {
-    width: 1160px;
+    
+    width: 1165px;
     justify-content: space-between;
 }
 .products-control {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+.ft-btn {
+    position: relative;
+    background: white;
+    color: #3c7968;
+    font-size: 19px;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+divider::before {
+    content: '';
+    width: 1px;
+    height: 30px;
+    right: 0;
+    top: 10px;
+    background-color: #3c7968;
+    position: absolute;
+    display: block;
+}
+.ft-btn.ft-btn-active {
+    background-color: #3c7968;
+    color: white;
 }
