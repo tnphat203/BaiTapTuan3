@@ -38,3 +38,40 @@ header {
     height: 42px;
     width: 362px;
 }
+
+.picHead {
+    display: flex;
+    height: 390px;
+    width: 1440px;
+    background-image: url(./Image/Image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    padding-left: 130px;
+    width: 580px;
+    height: 120px;
+    margin-top: 110px;
+}
+
+.content h1 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.control-product {
+    display: flex;
+    height: 166px;
+    width: 1440px;
+}
+
+.control-product-left {
+    margin-top: 65px;
+}
