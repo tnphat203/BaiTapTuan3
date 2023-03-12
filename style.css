@@ -126,3 +126,45 @@ header {
     background-color: #3c7968;
     color: white;
 }
+
+.sort {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 130;
+    justify-content: center;
+}
+.sort-search{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: white;
+}
+.sort-bar{
+    height: 100%;
+    width: 100%;
+    padding-left: 26px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(191, 188, 188)
+}
+.sort-by-btn {
+    background: rgb(236, 234, 234);
+    color: #696c6a;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 136px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 130px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+.sort-by-btn img {
+    width: 20px;
+}
