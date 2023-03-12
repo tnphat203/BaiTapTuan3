@@ -84,12 +84,12 @@ header {
 .products {
     display: flex;
     width: 1440px;
-    margin-top: 63px;
+    margin-top: 64px;
     justify-content: center;
 }
 .products-left {
-    
-    width: 1165px;
+    gap: 10px;
+    width: 1157px;
     justify-content: space-between;
 }
 .products-control {
@@ -98,17 +98,21 @@ header {
     width: 100%;
 }
 .ft-btn {
+    display: flex;
+    flex-direction: row;
     position: relative;
     background: white;
     color: #3c7968;
     font-size: 19px;
     border-radius: 5px;
-    width: 180px;
+    width: 500px;
     height: 50px;
     border: none;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
-divider::before {
+.divider::before {
     content: '';
     width: 1px;
     height: 30px;
