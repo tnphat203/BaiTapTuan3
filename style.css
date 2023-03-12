@@ -48,7 +48,7 @@ header {
 }
 .search-icon{
     position: absolute;
-    width: 15px;
+    width: 18px;
     top: 10px;
     left: 10px;
 }
@@ -137,7 +137,7 @@ header {
 .sort-search{
     position: relative;
     width: 200px;
-    height: 30px;
+    height: 45px;
     border-radius: 5px;
     border-color: white;
 }
@@ -147,7 +147,7 @@ header {
     padding-left: 26px;
     border-radius: 5px;
     border: none;
-    border-bottom: 1px solid rgb(191, 188, 188)
+    border-bottom: 0.5px solid rgb(226, 220, 220)
 }
 .sort-by-btn {
     background: rgb(236, 234, 234);
@@ -155,7 +155,7 @@ header {
     font-size: 18px;
     border-radius: 4px;
     width: 136px;
-    height: 30px;
+    height: 45px;
     border: none;
     cursor: pointer;
     margin-right: 130px;
